@@ -1,3 +1,4 @@
+<?php $baimd = $this->model ->baimoi(5);?>
 <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
 <!-- use jssor.slider.debug.js instead for debug -->
 <script>
@@ -139,23 +140,14 @@
         <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
     </div>
     <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 600px; height: 400px; overflow: hidden;">
-        <div data-p="112.50" style="display: none;">
-            <img data-u="image" src="img/01.jpg" />
-            <div data-u="thumb">Do you notice it is draggable by mouse/finger?</div>            
+	<?php foreach ($baimd as $rowmd) {?>        
+	<div data-p="112.50" style="display: none;">
+            <img data-u="image" src="<?php echo BASE_URL.$rowmd['urlhinh']?>" alt="<?php echo $rowmd['tieude'];?>"/>
+            <div data-u="thumb">
+	<a href="<?php echo BASE_URL.$rowmd['alias']?>.html" style="color:#FFF"><?php echo $rowmd['tieude'];?></a>
+</div>            
         </div>
-        <div data-p="112.50" style="display: none;">
-            <img data-u="image" src="img/02.jpg" />
-            <div data-u="thumb">Did you drag by either horizontal or vertical?</div>
-        </div>
-        <div data-p="112.50" style="display: none;">
-            <img data-u="image" src="img/03.jpg" />
-
-            <div data-u="thumb">Do you notice navigator responses when drag?</div>
-        </div>
-        <div data-p="112.50" style="display: none;">
-            <img data-u="image" src="img/04.jpg" />
-            <div data-u="thumb">Do you notice arrow responses when click?</div>
-        </div>
+<?php } ?>        
     </div>
     <!-- Thumbnail Navigator -->
     <div data-u="thumbnavigator" class="jssort09-600-45" style="position:absolute;bottom:0px;left:0px;width:600px;height:45px;">

@@ -1,5 +1,5 @@
 <?php
-define("BASE_URL",'http://thienquang.vn/');
+define("BASE_URL","http://".$_SERVER['SERVER_NAME']."/");
 define("BASE_URL2",'http://thienquang.vn/khiemthi/');
 define("INDEX_CNAME",1); //index trong thanh phan url chua ten controller
 //define('DEFAULT_CONTROLLER','baiviet');
@@ -10,9 +10,9 @@ define('ARTICLE_SUFFIX','.html');
 define("BASE_DIR", "/");
 define("BASE_ROOT", "/"); 
 define("HOST", "localhost");
-define('DB_NAME',  "thienquang");
-define('USER_DB', "root");
-define('PASS_DB', "root");
+define('DB_NAME',  "thienquang_1");
+define('USER_DB', "thienquang_1");
+define('PASS_DB', "chuathienquang@");
 
 define('DEFAULT_ACTION','tc');
 define('PER_PAGE',10);

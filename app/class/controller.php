@@ -14,7 +14,7 @@ class controller {
 		
 		if ($what=="quantri") { $c = new quantri($url); return;	}			
 		if ($what=="khiemthi") { $c = new khiemthi($url);	return;	}
-		if (isset($_SESSION['login_level'])==false ||  $_SESSION['login_level']<3) exit();
+		//if (isset($_SESSION['login_level'])==false ||  $_SESSION['login_level']<3) exit();
 		$this->model = new model();		
 		$params=array(); for($i=INDEX_CNAME+1 ; $i<count($arr); $i++) $params[]=$arr[$i]; $this->params=$params; //dãy tham số phía sau
 		

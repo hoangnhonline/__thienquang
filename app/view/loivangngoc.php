@@ -15,7 +15,9 @@ $(document).ready(function(){
 })
 </script>
 <ul id="loivangngoc" class="bxslider">	
-	<li><img src="<?php echo BASE_URL?>img/kinh-phap-cu/kinh-phap-cu-1.png"/></li>
-	<li><img src="<?php echo BASE_URL?>img/kinh-phap-cu/kinh-phap-cu-2.png"/></li>
-	<li><img src="<?php echo BASE_URL?>img/kinh-phap-cu/kinh-phap-cu-3.png"/></li>
+	<li><img src="<?php echo BASE_URL?>img/slideshow-chua-thien-quang-1.jpg"/></li>
+	<li><img src="<?php echo BASE_URL?>img/slideshow-chua-thien-quang-4.jpg"/></li>
+
+	<li><img src="<?php echo BASE_URL?>img/slideshow-chua-thien-quang-3.jpg"/></li>
+	<li><img src="<?php echo BASE_URL?>img/slideshow-chua-thien-quang-2.jpg"/></li>
 </ul>
