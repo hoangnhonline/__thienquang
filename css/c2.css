@@ -7,10 +7,10 @@ font-size:16px; font-family: "Noto Serif","Times New Roman",Arial,Tahoma;
  padding:5px;padding-bottom:45px; 
 }
 #wrap {width: 1250px;margin-right: auto; margin-left: auto;}
-#header {height: 220px; margin-bottom:5px; background: #26A2BC;}
+#header {height: 220px; margin-bottom:5px; background: #cd2122;}
 #header #vetrangchu {position:relative; top:-170px; left:20px; width:350px;display:inline-block; height:120px}
 #part2{background-color:white;  overflow: hidden;}
-#content1{width:578px; height:380px; border: none 2px #26A2BC;float:left;  
+#content1{width:578px; height:380px; border: none 2px #cd2122;float:left;  
  box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;
  border-top-left-radius:3px;
  border-top-right-radius:3px;
@@ -57,7 +57,7 @@ box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box;
 
 
 #part2bis{background-color:white;}
-#part2bis #cot1{width:860px; min-height:500px; border: none 2px #26A2BC;float:left;  
+#part2bis #cot1{width:860px; min-height:500px; border: none 2px #cd2122;float:left;  
  box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;
  background:white;
  }
@@ -149,9 +149,9 @@ background-repeat: no-repeat;
 .box_caption  a:hover{color: yellow !important}
 #baimoi {overflow:hidden}
 #baimoi_content{height:348px;}
-#baimoi .motbai {height:100px; border-bottom:solid 1px #26A2BC; overflow:hidden; }
+#baimoi .motbai {height:100px; border-bottom:solid 1px #cd2122; overflow:hidden; }
 #baimoi .motbai p {line-height:1.8em; text-align:justify; }
-#baimoi .hinh {width:80px; height:80px; margin: 10px 8px 0 0; border:none 1px #26A2BC; }
+#baimoi .hinh {width:80px; height:80px; margin: 10px 8px 0 0; border:none 1px #cd2122; }
 #baimoi a {display:block; margin: 5px 0 5px 0px; color:#cd2122; font-weight:bold}
 #baimoi a:hover { text-decoration: underline;}
 #baimoi .xemtiep {text-align:right; margin-top:15px;}
@@ -190,15 +190,15 @@ font-size:17px;
 
 
 #baitrongloai {}
-#baitrongloai .motbai { border-bottom:solid 1px #26A2BC;margin: 10px 0 0px 20px; }
+#baitrongloai .motbai { border-bottom:solid 1px #ccc;margin: 10px 0 0px 20px; padding-bottom: 10px }
 #baitrongloai .motbai .ngay {margin: 10px 0 0 0; font-style:italic; font-size:16px;}
 #baitrongloai .motbai .tomtat {margin: 5px 0 0px 0;line-height:2em; text-align:justify; font-size:18px;  font-family:Noto Serif; }
 #baitrongloai .motbai .hinh {width:140px; height:90px; margin:15px 8px 0 0;}
-#baitrongloai .tieude a {color:#26A2BC; font-weight:bold; font-size:18px}
+#baitrongloai .tieude a {color:#cd2122; font-weight:bold; font-size:18px}
 #baitrongloai a.tieude:hover{color:#FF8A00}
 #baitrongloai .xemchitiet {text-align:right; }
 #baitrongloai .xemchitiet a {color:#ff3333; }
-#baitrongloai .xemchitiet a:hover {font-weight:bold}
+#baitrongloai .xemchitiet a:hover {text-decoration: underline;}
 
 
 #thanhphantrang { margin:20px 0; text-align:left; clear:both; font-family:Noto Serif; font-size:0.8em}
@@ -218,7 +218,7 @@ font-size:17px;
 #baiviet_ct #tc{ text-align:right; margin-top:10px;}
 #baiviet_ct #tc a {}
 #baiviet_ct #tc a:hover{font-weight:bold; color: #FF8A00;}
-#baiviet_ct  h1.tieude {font-size:20px; color:#26A2BC; margin:-5px 0 15px 0;}
+#baiviet_ct  h1.tieude {font-size:20px; color:#cd2122; margin:-5px 0 15px 0;}
 #baiviet_ct  h2.tomtat {font-size:18px; line-height:2em; color:#3A4145; font-weight:normal; 
  text-align:justify;}
 #baiviet_ct  hr {margin:15px 0 15px 0}
@@ -249,7 +249,7 @@ font-size:17px;
 #divfacebook {text-align:center; margin:30px 0 30px 0; border-top:solid 2px #2F9A48;border-bottom:solid 2px #2F9A48; padding:20px 0 20px 0 }
 #divykien #formykien #divcamon {padding:40px;background-image:url(img/bg.png); text-align: center; color:#2F9A48; font-size: 20px; text-transform:uppercase; }
 
-#linkshot { background: #26A2BC; margin-bottom:15px; text-align:center; height:40px; line-height:40px; color:white;}
+#linkshot { background: #cd2122; margin-bottom:15px; text-align:center; height:40px; line-height:40px; color:white;}
 #linkshot a { color:white; margin-right:8px;}
 #linkshot a:hover{color:yellow; font-weight:bold;}
 
@@ -284,7 +284,7 @@ background-image:url(img/foward.gif); background-repeat:no-repeat;background-pos
 /* phim phat giao*/
 #videolist  .motchude {margin:20px 0 20px 25px; }
 #videolist   a{color:#ff0080; display:block;  }
-#videolist   a:hover {color:#26A2BC; font-weight:bold}
+#videolist   a:hover {color:#cd2122; font-weight:bold}
 #videolist  .mota { margin:5px 0 0 20px; font-size:16px; line-height:200%; text-align:justify }
 /* ducphat.php*/
 #bvducphat{

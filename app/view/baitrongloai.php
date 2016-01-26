@@ -13,8 +13,8 @@
 <img class="hinh" src="<?php echo $row['urlhinh']?>" align="left" />
 <?php echo htmlentities($row['tomtat'],ENT_QUOTES,'utf-8');?>
 </p>
-<div class="xemchitiet">
-<a href="<?php echo BASE_URL.$row['alias']?>.html">Xem chi tiết</a>
+<div class="xemchitiet" style="clear:both">
+<a href="<?php echo BASE_URL.$row['alias']?>.html">Chi tiết</a>
 </div>
 </div>
 <?php } ?>

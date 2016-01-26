@@ -12,7 +12,7 @@ define("BASE_ROOT", "/");
 define("HOST", "localhost");
 define('DB_NAME',  "thienquang");
 define('USER_DB', "root");
-define('PASS_DB', "");
+define('PASS_DB', "root");
 
 define('DEFAULT_ACTION','tc');
 define('PER_PAGE',10);
